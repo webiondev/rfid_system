@@ -1,0 +1,7 @@
+EarningReport/EarningLog
+=================
+needs to connect with db for generating report
+	-> connect to db
+	-> readinfo/writeinfo to db
+		-> do this by calling database class (object) for assest management
+		
