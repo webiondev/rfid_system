@@ -1,0 +1,7 @@
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\bin\Release\RFIDmobile.exe
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\bin\Release\RFIDmobile.pdb
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\obj\Release\RFIDmobile.Properties.Resources.resources
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\obj\Release\RFIDmobile.csproj.GenerateResource.Cache
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\obj\Release\RFIDmobile.exe
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\RFIDmobile\obj\Release\RFIDmobile.pdb

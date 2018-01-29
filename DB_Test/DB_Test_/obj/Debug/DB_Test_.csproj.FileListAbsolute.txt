@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\bin\Debug\DB_Test_.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\bin\Debug\DB_Test_.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\bin\Debug\DB_Test.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\bin\Debug\DB_Test.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\obj\Debug\DB_Test_.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test_\obj\Debug\DB_Test_.pdb

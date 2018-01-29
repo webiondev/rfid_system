@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="dcab38f8-b506-403f-8ec2-a6f234045c46" name="Admin@PUTERI 2017-09-21 16:09:57" runUser="PUTERI\Admin" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="8adc7947-97b8-4195-b300-805ad728c3fe">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestResults\Admin_PUTERI 2017-09-21 16_09_57">
+      <DeploymentItem filename="C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\bin\Debug\TestRfid.exe" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2017-09-21T16:09:57.4062991+08:00" queuing="2017-09-21T16:09:58.8843320+08:00" start="2017-09-21T16:09:59.0714679+08:00" finish="2017-09-21T16:09:59.3746874+08:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\users\admin\documents\visual studio 2008\projects\testrfid\test_run\bin\debug\test_run.dll" id="9816d1d0-b99b-ea57-56a1-7470ed1499db">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5f1ba1db-0745-42f0-b616-3cd95ff8317e" />
+      <TestMethod codeBase="C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\Test_Run\bin\Debug\Test_Run.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Test_Run.UnitTest1, Test_Run" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="9816d1d0-b99b-ea57-56a1-7470ed1499db" executionId="5f1ba1db-0745-42f0-b616-3cd95ff8317e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5f1ba1db-0745-42f0-b616-3cd95ff8317e" testId="9816d1d0-b99b-ea57-56a1-7470ed1499db" testName="TestMethod1" computerName="PUTERI" duration="00:00:00.0367145" startTime="2017-09-21T16:09:59.1665362+08:00" endTime="2017-09-21T16:09:59.3316588+08:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

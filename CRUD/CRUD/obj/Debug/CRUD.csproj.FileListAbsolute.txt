@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\bin\Debug\CRUD.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\bin\Debug\CRUD.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\obj\Debug\CRUD.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\obj\Debug\CRUD.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\obj\Debug\CRUD.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CRUD\CRUD\obj\Debug\CRUD.pdb

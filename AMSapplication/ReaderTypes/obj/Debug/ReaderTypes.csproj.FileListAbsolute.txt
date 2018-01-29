@@ -1,0 +1,8 @@
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\OnrampMobileApplication\ReaderTypes\bin\Debug\ReaderTypes.dll
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\OnrampMobileApplication\ReaderTypes\bin\Debug\ReaderTypes.pdb
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\OnrampMobileApplication\ReaderTypes\obj\Debug\ReaderTypes.dll
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\OnrampMobileApplication\ReaderTypes\obj\Debug\ReaderTypes.pdb
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\ReaderTypes\bin\Debug\ReaderTypes.dll
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\ReaderTypes\bin\Debug\ReaderTypes.pdb
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\ReaderTypes\obj\Debug\ReaderTypes.dll
+C:\Documents and Settings\1\My Documents\Visual Studio 2008\Projects\AMSapplication\ReaderTypes\obj\Debug\ReaderTypes.pdb

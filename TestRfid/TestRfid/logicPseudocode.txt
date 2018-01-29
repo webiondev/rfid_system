@@ -1,0 +1,10 @@
+EarningReport/EarningLog
+=================
+needs to connect with db for generating report
+	-> connect to db
+	-> readinfo/writeinfo to db
+		-> do this by calling database class (object) for assest management
+		-> call account management class (object) to retrieve/create new asset
+		-> Create a DB operation class
+		-> for every frame which needs DB access use db operation in that frame's class
+		

@@ -1,0 +1,126 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHDeviceInterface", "HHDeviceInterface\HHDeviceInterface.csproj", "{C8BB7F38-7CC7-4B6E-9BE9-C0B0DD3AC581}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RFID_Dlls", "RFID_Dlls", "{803A0BD9-B328-4B4C-BBA9-2AC958DACFE5}"
+	ProjectSection(SolutionItems) = preProject
+		RFID_DLLs\ClslibBarcode.dll = RFID_DLLs\ClslibBarcode.dll
+		RFID_DLLs\ClslibHotkey.dll = RFID_DLLs\ClslibHotkey.dll
+		RFID_DLLs\ClslibPosSp.dll = RFID_DLLs\ClslibPosSp.dll
+		RFID_DLLs\ClslibRfidSp.dll = RFID_DLLs\ClslibRfidSp.dll
+		RFID_DLLs\CS101UILib.dll = RFID_DLLs\CS101UILib.dll
+		RFID_DLLs\Microsoft.WindowsMobile.dll = RFID_DLLs\Microsoft.WindowsMobile.dll
+		RFID_DLLs\Microsoft.WindowsMobile.Status.dll = RFID_DLLs\Microsoft.WindowsMobile.Status.dll
+		RFID_DLLs\System.Data.SqlServerCe.dll = RFID_DLLs\System.Data.SqlServerCe.dll
+		RFID_DLLs\TooltipHelper.dll = RFID_DLLs\TooltipHelper.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderConnectorLib", "ReaderConnectorLib\ReaderConnectorLib.csproj", "{D124275D-78A3-488A-A9EE-EA9335C27F54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsReaderLib", "ClsReaderLib\ClsReaderLib.csproj", "{BA343E1F-92E7-460B-8390-421FC3D187F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsLibBKLogs", "ClsLibBKLogs\ClsLibBKLogs.csproj", "{3506B91E-4000-440E-815A-EF730B00DC9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsRampdb", "ClsRampdb\ClsRampdb.csproj", "{17A21009-6CC4-4395-A333-7018F5464C76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClslibSerialNo", "ClslibSerialNo\ClslibSerialNo.csproj", "{1D4F2C01-547A-44A7-A2EC-7DAD85A416F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RampMobile", "CS101\RampMobile.csproj", "{2F3ADDE6-CC70-4A88-AA4D-6B3F1289AF8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SNTPClient", "SNTPClient\SNTPClient.csproj", "{40B562BE-3C6A-45B2-B734-1DB078E94E5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSetFactory", "DataSetFactory\DataSetFactory.csproj", "{BAD54B1F-A049-48DA-81EE-8363801F6973}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReaderTypes", "ReaderTypes\ReaderTypes.csproj", "{EE49FE16-421E-4BE3-8276-5A53B65776F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClslibRfidSp", "ClslibRfidSp\ClslibRfidSp.csproj", "{E1734BA0-30BB-40BD-A46B-057DE9325702}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CS101ReaderLib", "CS101ReaderLib\CS101ReaderLib.csproj", "{784D5D26-0E53-4CD8-B5B3-402FA079E17F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT870ReaderLib", "AT870ReaderLib\AT870ReaderLib.csproj", "{D94DA466-7AE7-4CC2-8B9A-D77E9139282B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AT870", "AT870", "{A2E5A6F0-1841-4970-8F9A-F87112FB565C}"
+	ProjectSection(SolutionItems) = preProject
+		RFID_DLLs\AT870\AT_UHF.dll = RFID_DLLs\AT870\AT_UHF.dll
+		RFID_DLLs\AT870\AT_UHF_NET.dll = RFID_DLLs\AT870\AT_UHF_NET.dll
+		RFID_DLLs\AT870\ATLib.net.dll = RFID_DLLs\AT870\ATLib.net.dll
+		RFID_DLLs\AT870\ATRMUHF.dll = RFID_DLLs\AT870\ATRMUHF.dll
+		RFID_DLLs\AT870\ATScan_NET.dll = RFID_DLLs\AT870\ATScan_NET.dll
+		RFID_DLLs\AT870\ATUTIL.dll = RFID_DLLs\AT870\ATUTIL.dll
+		RFID_DLLs\AT870\uhfrfid.dll = RFID_DLLs\AT870\uhfrfid.dll
+		RFID_DLLs\AT870\Util_PowerOn_NET.dll = RFID_DLLs\AT870\Util_PowerOn_NET.dll
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestApplication", "TestApplication\TestApplication.csproj", "{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AT870Mobile", "AT870Mobile\AT870Mobile.csproj", "{BCB79B70-70AD-4CA7-906E-4E23B2EF2730}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HHMobile", "HHMobile\HHMobile.csproj", "{C99DA08E-0300-4D2E-8051-1989161AD456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFIDInstaller", "RFIDInstaller\RFIDInstaller.csproj", "{A9AADC60-ED19-407F-950B-06AFEA7C598F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RFIDInstallerLauncher", "RFIDInstallerLauncher\RFIDInstallerLauncher.csproj", "{69F72924-B5ED-4B5A-81AD-A4404F86C9DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClsRampDbNew", "ClsRampDbNew\ClsRampDbNew.csproj", "{371C268B-12AB-489E-8204-2177897F3AC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "clsRampdbAdapter", "clsRampdbAdapter\clsRampdbAdapter.csproj", "{F0D4C221-F6C7-4D7D-8C63-155C2072F81C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8BB7F38-7CC7-4B6E-9BE9-C0B0DD3AC581}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{C8BB7F38-7CC7-4B6E-9BE9-C0B0DD3AC581}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D124275D-78A3-488A-A9EE-EA9335C27F54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D124275D-78A3-488A-A9EE-EA9335C27F54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA343E1F-92E7-460B-8390-421FC3D187F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA343E1F-92E7-460B-8390-421FC3D187F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3506B91E-4000-440E-815A-EF730B00DC9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3506B91E-4000-440E-815A-EF730B00DC9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3506B91E-4000-440E-815A-EF730B00DC9A}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{3506B91E-4000-440E-815A-EF730B00DC9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A21009-6CC4-4395-A333-7018F5464C76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A21009-6CC4-4395-A333-7018F5464C76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A21009-6CC4-4395-A333-7018F5464C76}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{17A21009-6CC4-4395-A333-7018F5464C76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4F2C01-547A-44A7-A2EC-7DAD85A416F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4F2C01-547A-44A7-A2EC-7DAD85A416F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3ADDE6-CC70-4A88-AA4D-6B3F1289AF8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3ADDE6-CC70-4A88-AA4D-6B3F1289AF8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B562BE-3C6A-45B2-B734-1DB078E94E5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B562BE-3C6A-45B2-B734-1DB078E94E5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAD54B1F-A049-48DA-81EE-8363801F6973}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAD54B1F-A049-48DA-81EE-8363801F6973}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE49FE16-421E-4BE3-8276-5A53B65776F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE49FE16-421E-4BE3-8276-5A53B65776F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1734BA0-30BB-40BD-A46B-057DE9325702}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1734BA0-30BB-40BD-A46B-057DE9325702}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{784D5D26-0E53-4CD8-B5B3-402FA079E17F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{784D5D26-0E53-4CD8-B5B3-402FA079E17F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94DA466-7AE7-4CC2-8B9A-D77E9139282B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94DA466-7AE7-4CC2-8B9A-D77E9139282B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E91C81C4-0BA8-47B3-99D0-9E16341B52D2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{BCB79B70-70AD-4CA7-906E-4E23B2EF2730}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB79B70-70AD-4CA7-906E-4E23B2EF2730}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C99DA08E-0300-4D2E-8051-1989161AD456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C99DA08E-0300-4D2E-8051-1989161AD456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9AADC60-ED19-407F-950B-06AFEA7C598F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9AADC60-ED19-407F-950B-06AFEA7C598F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F72924-B5ED-4B5A-81AD-A4404F86C9DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F72924-B5ED-4B5A-81AD-A4404F86C9DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371C268B-12AB-489E-8204-2177897F3AC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371C268B-12AB-489E-8204-2177897F3AC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0D4C221-F6C7-4D7D-8C63-155C2072F81C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0D4C221-F6C7-4D7D-8C63-155C2072F81C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

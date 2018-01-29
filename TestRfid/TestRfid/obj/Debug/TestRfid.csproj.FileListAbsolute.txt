@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\bin\Debug\TestRfid.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\bin\Debug\TestRfid.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\obj\Debug\TestRfid.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\obj\Debug\TestRfid.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\obj\Debug\TestRfid.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\TestRfid\TestRfid\obj\Debug\TestRfid.pdb

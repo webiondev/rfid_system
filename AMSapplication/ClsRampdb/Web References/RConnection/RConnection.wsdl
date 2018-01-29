@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetLogin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UserName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Password" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLoginResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLoginResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="runQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sqlText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="runQueryResponse">
+        <s:complexType />
+      </s:element>
+      <s:element name="ExecQuery">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="cmdStr" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="keys" type="tns:ArrayOfAnyType" />
+            <s:element minOccurs="0" maxOccurs="1" name="values" type="tns:ArrayOfAnyType" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ArrayOfAnyType">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="unbounded" name="anyType" nillable="true" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="ExecQueryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="ExecQueryResult" type="s:int" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDataTable">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sqlText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getDataTableResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getDataTableResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getScalerValue">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sqlText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="getScalerValueResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="getScalerValueResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetLoginSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLogin" />
+  </wsdl:message>
+  <wsdl:message name="GetLoginSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="runQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:runQuery" />
+  </wsdl:message>
+  <wsdl:message name="runQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:runQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="ExecQuerySoapIn">
+    <wsdl:part name="parameters" element="tns:ExecQuery" />
+  </wsdl:message>
+  <wsdl:message name="ExecQuerySoapOut">
+    <wsdl:part name="parameters" element="tns:ExecQueryResponse" />
+  </wsdl:message>
+  <wsdl:message name="getDataTableSoapIn">
+    <wsdl:part name="parameters" element="tns:getDataTable" />
+  </wsdl:message>
+  <wsdl:message name="getDataTableSoapOut">
+    <wsdl:part name="parameters" element="tns:getDataTableResponse" />
+  </wsdl:message>
+  <wsdl:message name="getScalerValueSoapIn">
+    <wsdl:part name="parameters" element="tns:getScalerValue" />
+  </wsdl:message>
+  <wsdl:message name="getScalerValueSoapOut">
+    <wsdl:part name="parameters" element="tns:getScalerValueResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RConnectionSoap">
+    <wsdl:operation name="GetLogin">
+      <wsdl:input message="tns:GetLoginSoapIn" />
+      <wsdl:output message="tns:GetLoginSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="runQuery">
+      <wsdl:input message="tns:runQuerySoapIn" />
+      <wsdl:output message="tns:runQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ExecQuery">
+      <wsdl:input message="tns:ExecQuerySoapIn" />
+      <wsdl:output message="tns:ExecQuerySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getDataTable">
+      <wsdl:input message="tns:getDataTableSoapIn" />
+      <wsdl:output message="tns:getDataTableSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="getScalerValue">
+      <wsdl:input message="tns:getScalerValueSoapIn" />
+      <wsdl:output message="tns:getScalerValueSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RConnectionSoap" type="tns:RConnectionSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLogin">
+      <soap:operation soapAction="http://tempuri.org/GetLogin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="runQuery">
+      <soap:operation soapAction="http://tempuri.org/runQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecQuery">
+      <soap:operation soapAction="http://tempuri.org/ExecQuery" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDataTable">
+      <soap:operation soapAction="http://tempuri.org/getDataTable" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getScalerValue">
+      <soap:operation soapAction="http://tempuri.org/getScalerValue" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RConnectionSoap12" type="tns:RConnectionSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLogin">
+      <soap12:operation soapAction="http://tempuri.org/GetLogin" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="runQuery">
+      <soap12:operation soapAction="http://tempuri.org/runQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ExecQuery">
+      <soap12:operation soapAction="http://tempuri.org/ExecQuery" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getDataTable">
+      <soap12:operation soapAction="http://tempuri.org/getDataTable" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="getScalerValue">
+      <soap12:operation soapAction="http://tempuri.org/getScalerValue" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RConnection">
+    <wsdl:port name="RConnectionSoap" binding="tns:RConnectionSoap">
+      <soap:address location="http://vijay/rampService/RConnection.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RConnectionSoap12" binding="tns:RConnectionSoap12">
+      <soap12:address location="http://vijay/rampService/RConnection.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

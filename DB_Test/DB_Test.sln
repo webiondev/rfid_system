@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DB_Test", "DB_Test\DB_Test.csproj", "{94CCD899-2780-4D2E-81B3-C9FFEC6EB021}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{81366ABF-F491-4B4A-83FD-6C99D9D11B46}"
+	ProjectSection(SolutionItems) = preProject
+		DB_Test.vsmdi = DB_Test.vsmdi
+		LocalTestRun.testrunconfig = LocalTestRun.testrunconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DB_Test.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94CCD899-2780-4D2E-81B3-C9FFEC6EB021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94CCD899-2780-4D2E-81B3-C9FFEC6EB021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94CCD899-2780-4D2E-81B3-C9FFEC6EB021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94CCD899-2780-4D2E-81B3-C9FFEC6EB021}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\DB_Test.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\DB_Test.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\DB_Test.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\bin\Debug\Database1.mdf
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\bin\Debug\Database1_log.ldf
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\bin\Debug\DB_Test.exe.config
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\bin\Debug\DB_Test.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\bin\Debug\DB_Test.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\DB_Test.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\DB_Test\DB_Test\obj\Debug\DB_Test.pdb

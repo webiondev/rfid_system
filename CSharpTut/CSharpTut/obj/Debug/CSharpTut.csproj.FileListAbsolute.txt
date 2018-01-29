@@ -1,0 +1,8 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\CSharpTut.Form1.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\CSharpTut.Properties.Resources.resources
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\CSharpTut.csproj.GenerateResource.Cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\bin\Debug\CSharpTut.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\bin\Debug\CSharpTut.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\CSharpTut.exe
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\CSharpTut\CSharpTut\obj\Debug\CSharpTut.pdb
